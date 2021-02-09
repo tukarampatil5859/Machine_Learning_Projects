@@ -12,7 +12,6 @@ import pytesseract
 from mysql.connector import cursor
 from datetime import date
 
-
 mydb = mysql.connector.connect(host="localhost", user="root", password="Sunbeam@123",database="ALPR")
 
 def ocr_core(filename):
